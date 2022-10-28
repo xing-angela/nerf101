@@ -618,7 +618,7 @@ def train():
               render_poses.shape, hwf, args.datadir)
         i_train, i_val, i_test = i_split
 
-	# the near and far planes were originlly set to 0 and 1 respectively
+	# the near and far planes were originlly set to 2 and 6 respectively
         near = 0.1
         far = 20
 
