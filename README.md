@@ -1,4 +1,4 @@
-## NeRF
+## NeRF 101
 Here is the link to the original NeRF paper: [NeRF](https://arxiv.org/abs/2003.08934)
 
 This code is taken from the [nerf-pytorch repo](https://github.com/yenchenlin/nerf-pytorch). In order to run the code, you can reference the documentation in that repo. 
