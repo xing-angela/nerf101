@@ -112,7 +112,7 @@ def load_blender_data(basedir, half_res=False, testskip=1):
     y_start = 8.5
     y_end = 1
     y_spiral_step = (y_end - y_start) / num_spirals
-    y_step = y_spiral_step / (fps - 1)
+    y_step = y_spiral_step / (frames - 1)
     curr_y = y_start
 
     # handles phi rotation
